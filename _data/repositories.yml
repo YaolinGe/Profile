@@ -1,0 +1,14 @@
+github_users:
+  - yaolinge
+  # - alshedivat
+
+github_repos:
+  - mascot-ntnu/google
+  - mascot-ntnu/mafia
+  - mascot-ntnu/oasis
+  - mascot-ntnu/taichi
+  - yaolinge/profile
+  # - jquery/jquery
+  # - FortAwesome/Font-Awesome
+  # - jpswalsh/academicons
+  # - mathjax/MathJax

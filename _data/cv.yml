@@ -1,0 +1,130 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Yaolin Ge
+    - name: Date of Birth
+      value: 20th Oct, 1996
+    - name: Languages
+      value: English, Mandarin, Norwegian
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD candidate at Dept. of Mathematical Sciences
+      institution: Norwegian University of Science and Technology (NTNU), Trondheim, Norway
+      year: 2020-present
+      description:
+        - Working on MASCOT project with the objective of autonomous sampling for different ocean properties using versatile approaches including statistical modeling, AUV sampling and satellite sensing etc. Conducting field experiment to validate the robustness of the system.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: MSc in Maritime Engineering
+      institution: KTH Royal Institute of Technology, Stockholm, Sweden
+      year: 2019-2020
+      description:
+        - Participated the two-week field trip in Askö, Sweden to test the performance of the under-communication system and analyzed in-situ data from the water column in the master project.
+    - title: MSc in Marine Technology
+      institution: Norwegian University of Science and Technology (NTNU), Trondheim, Norway
+      year: 2018-2019
+      description:
+        - Participated a field trip to discover a WWII wreckage and collect water quality samples in Trondheimsfjorden, Norway using LAUV-Harald in the course Underwater Technology supervised by Martin Ludvigsen.
+    - title: Exchange student in Naval Architecture, Ocean and Marine Engineering
+      institution: University of Strathclyde, Glasgow, UK
+      year: 2017
+      description:
+        - Studied and conducted analysis using computational fluid dynamics (CFD) and finite element analysis (FEA) in relevant coursework. Attended local language school and social events to enhance communication skills.
+    - title: BSc in Naval Architecture and Ocean Engineering
+      institution: Jiangsu University of Science and Technology, Zhenjiang, China
+      year: 2014-2018
+      description:
+        - Analyzed the results from a numerical solver to study the effect of Vortex-Induced-Vibration on slender body structures such as a steel catenary riser (SCR) in the deep sea.
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: PhD candidate at Dept. of Mathematical Sciences
+      institution: Norwegian University of Science and Technology (NTNU), Trondheim, Norway
+      year: 2020-present
+      description:
+        - Designed multi-scale research projects for variable objectives exploiting numerous resources including SINMOD, LAUV-Thor/Harald, Sentinel-2 etc.
+        - Conducted six field trips in Trondheimsfjorden, Norway, and six field trips in the Atlantic Ocean to validate the robustness and sensitivity of the system.
+        - Collaborate closely with multiple research institutes including SINTEF Ocean, AURLab NTNU, LSTS, MARETEC for knowledge dissemination to foster novel ideas.
+        - Analyze and interpret in-situ measurements using statistical kriging techniques and QGIS etc.
+        - Document and publish the results to relevant scientific communities and share knowledge with the general public. Two papers submitted (1 accepted, 1 review). Two posters presented in NORDSTAT 2021 and Geilo Winter Schoool 2023. Talks at MIT Portugal Marine Robotics Summer School 2021 and IFAC CAMS 2022 and several other internal seminars within the department.
+    - title: Summer research intern at AI+Art Lab
+      institution: Peking University, Beijing, China
+      year: 2019
+      description:
+        - Studied machine learning and deep learning principles, particularly computer vision techniques.
+        - Applied and integrated motion capturing algorithms OpenPose onboard a humanoid robot. [video]
+        - Demonstrated the performance of the algorithms with a robot dance show. [video]
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2021
+      items: 
+        - Taekwondo WT – NM 2021, 3rd in KAMP, 4th in Poomsae, Norway
+    - year: 2019
+      items: 
+        - Best Popular Prize, AI + Art in Robot Dancing Competition, PKU, China
+    - year: 2017
+      items: 
+        - Merit Student, Ministry of Education, China
+    - year: 2017
+      items: 
+        - First Prize, Academic Competition in Mechanics Knowledge, Jiangsu University of Science and Technology, China
+    - year: 2016
+      items: 
+        - National Scholarship, Ministry of Education, China
+    - year: 2015
+      items: 
+        - First Prize, Renmin Scholarship, Ministry of Education, China
+    - year: 2015
+      items: 
+        - National Encouragement Scholarship, Ministry of Education, China
+
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Adaptive sampling
+      items:
+        - Adaptive sampling is a process that involves the collection of data from a system in a manner that is optimized for the specific objective of the study.
+        - This technology can be used to collect data from a system in a more efficient and effective manner.
+    - title: Oceanography
+      items:
+        - Oceanography is the study of the physical, chemical, and biological properties of the ocean and its ecosystems.
+        - This field of study can be used to improve the understanding of the ocean and its ecosystems.
+    - title: Intelligent path planning
+      items:
+        - Intelligent planning is a process that involves the use of artificial intelligence (AI) to plan and execute tasks in a more efficient and effective manner.
+        - This technology can be used to improve the efficiency of various industries and processes, including manufacturing, transportation, and logistics.
+
+- title: Extra-curricular Activities
+  type: nested_list
+  contents:
+    - title: Hobbies
+      items:
+        - Friluftsliv (camping, topptur, langrenn og dykking ...)
+        - Taekwondo
+        - Dance 
+        - Music
+        - Travelling
+    - title: Taekwondo instructor
+      items:
+        - Taught Taekwondo to all members at NTNUI Taekwondo club.
+        - Participated in the national Taekwondo competition and won the 3rd place in KAMP and 4th place in Poomsae.
+    - title: Salsa line instructor
+      items:
+        - Taught Salsa line to all members at NTNUI Dance club.
+      
