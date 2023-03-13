@@ -5,4 +5,4 @@ title: test today
 description: an example of a blog post with diagrams
 ---
 
-Here comes a new test post
+Here comes a new test post, it should have somehting new here.
