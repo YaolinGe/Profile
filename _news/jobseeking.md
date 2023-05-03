@@ -5,7 +5,7 @@ date: 2023-03-03 00:00:00
 inline: false
 ---
 
-I am looking for a research position in the field of artificial intelligence. I am particularly interested in the following topics:
+I am looking for a research position or a software developer position in the following fields or fleiblely more. I am particularly interested in the following topics:
 - Machine learning
 - Reinforcement learning
 - Spatial reasoning

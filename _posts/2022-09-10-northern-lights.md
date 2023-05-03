@@ -18,4 +18,4 @@ The people of the tribe gathered together and watched in amazement as the northe
 
 And so, the northern lights became a symbol of hope and wonder for the people of the village. They knew that even in the midst of the darkest and coldest nights, there was beauty and magic in the world. And as long as the northern lights continued to dance in the sky above them, they knew that they would always have something to marvel at and cherish.
 
-![Nordlys]({{site.url}}/assets/img/nordlys.jpg)
+![Nordlys]({{site.url}}/assets/img/nordlys.jpg){: width="100%" }

@@ -1,12 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.4.2)
+    activesupport (7.0.4.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.1)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     bibtex-ruby (6.0.0)
       latex-decode (~> 0.0)
@@ -38,8 +38,8 @@ GEM
       sax-machine (>= 1.0)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    gemoji (4.0.1)
-    google-protobuf (3.22.0-arm64-darwin)
+    gemoji (4.1.0)
+    google-protobuf (3.22.3-arm64-darwin)
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -84,6 +84,8 @@ GEM
       uglifier (~> 4.1)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-scholar (7.1.3)
@@ -91,6 +93,8 @@ GEM
       citeproc-ruby (~> 1.0)
       csl-styles (~> 1.0)
       jekyll (~> 4.0)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-twitter-plugin (2.1.0)
@@ -113,7 +117,7 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.19.1)
+    loofah (2.20.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     matrix (0.4.2)
@@ -121,10 +125,10 @@ GEM
     mini_mime (1.1.2)
     mini_racer (0.6.3)
       libv8-node (~> 16.10.0.0)
-    minitest (5.17.0)
+    minitest (5.18.0)
     multi_xml (0.6.0)
     namae (1.1.1)
-    nokogiri (1.14.2-arm64-darwin)
+    nokogiri (1.14.3-arm64-darwin)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -136,7 +140,7 @@ GEM
     rexml (3.2.5)
     rouge (4.1.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.58.3-arm64-darwin)
+    sass-embedded (1.62.0-arm64-darwin)
       google-protobuf (~> 3.21)
     sax-machine (1.3.2)
     terminal-table (3.0.2)
@@ -165,7 +169,9 @@ DEPENDENCIES
   jekyll-link-attributes
   jekyll-minifier
   jekyll-paginate-v2
+  jekyll-redirect-from
   jekyll-scholar
+  jekyll-seo-tag
   jekyll-sitemap
   jekyll-twitter-plugin
   jemoji
