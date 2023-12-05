@@ -11,9 +11,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Software Engineer at Sensorized Tools
+      institution: Sandvik Coromant, Trondheim, Norway
+      year: 2023-present
     - title: PhD candidate at Dept. of Mathematical Sciences
       institution: Norwegian University of Science and Technology (NTNU), Trondheim, Norway
-      year: 2020-present
+      year: 2020-2023
       description:
         - Design and implement multi-scale data-driven machine learning software systems for remote sensing.
         - Optimize the edge computing using GPU-accelerated parallel programming using CUDA, OpenCL etc.
