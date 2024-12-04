@@ -17,3 +17,6 @@ The interview itself? Not terrible. I solved a BST problem solo and managed a li
 Here’s what I learned: to be among the best, you can’t do everything. You need focus. My dreams of working at a big tech company—Meta, Google, or the like—require serious, targeted effort. At 28, with a goal of FIRE (Financial Independence, Retire Early), time’s ticking. It’s time to prioritize, deepen my skills, and get back at it.
 
 Meta didn’t work out this time, but the dream is far from over. Onward and upward!
+
+# To build: 
+- Illustrator app for math problems such as FFT, DFT, etc.
