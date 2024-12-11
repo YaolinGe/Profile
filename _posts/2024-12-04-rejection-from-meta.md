@@ -18,5 +18,3 @@ Here’s what I learned: to be among the best, you can’t do everything. You ne
 
 Meta didn’t work out this time, but the dream is far from over. Onward and upward!
 
-# To build: 
-- Illustrator app for math problems such as FFT, DFT, etc.
