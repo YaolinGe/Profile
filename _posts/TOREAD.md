@@ -25,3 +25,6 @@ description: Here comes a personal collections of books, articles, and videos th
 # Courses 
 - [ ] [AI Python for Beginners](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/)
 - [ ] [Networking Basics](https://www.netacad.com/launch?id=f393c38f-b410-4d2b-8275-70e144273519&tab=curriculum&view=ae8638aa-428f-5d03-b275-742d5f1b805c)
+
+# Youtube series 
+- [ ] [Essence of Linear Algebra](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
