@@ -28,3 +28,5 @@ description: Here comes a personal collections of books, articles, and videos th
 
 # Youtube series 
 - [ ] [Essence of Linear Algebra](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
+- [ ] [Machine Learning for SVM](https://www.youtube.com/watch?v=s8B4A5ubw6c&ab_channel=Stanford)
+- [ ] [Machine Learning Stanford](https://www.youtube.com/watch?v=UzxYlbK2c7E&list=PLA89DCFA6ADACE599&ab_channel=Stanford)
