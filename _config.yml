@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yaolin's Profile # the website title (if blank, full name will be used instead)
-first_name: Yaolin
-last_name: Ge
+title: Yao's Profile # the website title (if blank, full name will be used instead)
+first_name: Yao
+last_name: G
 email: geyaolin@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yaolin's personal webpage. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Yao's personal webpage. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -115,7 +115,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Yaolin's blog # blog_name will be displayed in your blog page
+blog_name: # Yao's blog # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: > # the ">" symbol means to ignore newlines until "blog_description:"
   This is my blog. I write about my research and other things happening in my life.
