@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How I Found a Job in Norway as a PhD</title>
+    
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #2b6cb0;
+            --secondary-color: #4a5568;
+            --accent-color: #4299e1;
+        }
+        
+        .reveal {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .reveal h1, .reveal h2, .reveal h3 {
+            color: var(--primary-color);
+            text-transform: none;
+        }
+        
+        .reveal p, .reveal li {
+            color: var(--secondary-color);
+            font-size: 1.2em;
+        }
+        
+        .reveal .slides section {
+            padding: 20px;
+        }
+        
+        .reveal .slides section .fragment {
+            opacity: 0;
+            transition: all 0.5s ease;
+        }
+        
+        .reveal .slides section .fragment.visible {
+            opacity: 1;
+        }
+        
+        .quote {
+            font-style: italic;
+            color: var(--accent-color);
+            padding: 20px;
+            border-left: 4px solid var(--accent-color);
+            background-color: rgba(66, 153, 225, 0.1);
+        }
+        
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .timeline-dot {
+            width: 12px;
+            height: 12px;
+            background-color: var(--accent-color);
+            border-radius: 50%;
+        }
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .stat-box {
+            padding: 15px;
+            background-color: rgba(66, 153, 225, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section data-transition="zoom">
+                <h1>How I Found a Job in Norway as a PhD</h1>
+                <h3>(Without Losing My Sanity)</h3>
+                <p>Yaolin Ge</p>
+                <p>April 24, 2025</p>
+            </section>
+
+            <!-- Who Am I? -->
+            <section data-transition="slide">
+                <h2>Who Am I?</h2>
+                <div style="font-size: 0.9em;">
+                    <ul style="line-height: 1.3;">
+                        <li class="fragment">👨‍💻 Software Engineer at Sandvik Coromant</li>
+                        <li class="fragment">🇨🇳 Made in China</li>
+                        <li class="fragment">🌍 Education: <span class="fragment fade-in">🎓 BSc (China)</span> <span class="fragment fade-in">→</span> <span class="fragment fade-in">🇬🇧 Exchange (UK)</span><span class="fragment fade-in">→</span> <span class="fragment fade-in">🇳🇴 MSc (Norway)</span> <span class="fragment fade-in">→</span> <span class="fragment fade-in">🇸🇪 MSc (Sweden)</span> <span class="fragment fade-in">→</span> <span class="fragment fade-in">🇳🇴 PhD (Norway)</span></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Personal Experiences -->
+            <section data-transition="fade">
+                <h2>My Journey 🚀</h2>
+                <div class="timeline" style="font-size: 0.9em;">
+                    <div class="timeline-item fragment">
+                        <div class="timeline-dot"></div>
+                        <div><span style="font-weight: bold;">2014-2018:</span> 🎓 BSc in Engineering at JUST, China</div>
+                    </div>
+                    <div class="timeline-item fragment">
+                        <div class="timeline-dot"></div>
+                        <div><span style="font-weight: bold;">2018-2020:</span> 🌍 MSc in Engineering at NTNU & KTH</div>
+                    </div>
+                    <div class="timeline-item fragment">
+                        <div class="timeline-dot"></div>
+                        <div><span style="font-weight: bold;">2020-2023:</span> 📊 PhD in Statistics at NTNU</div>
+                    </div>
+                    <div class="timeline-item fragment">
+                        <div class="timeline-dot"></div>
+                        <div><span style="font-weight: bold;">2023 Spring:</span> 🔍 Job hunting</div>
+                    </div>
+                    <div class="timeline-item fragment">
+                        <div class="timeline-dot"></div>
+                        <div><span style="font-weight: bold;">2023 Fall-Present:</span> 💻 SWE at Sandvik Coromant</div>
+                    </div>
+                </div>
+                <div class="fragment" style="margin-top: 30px; text-align: center;">
+                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjI1NzU3MzQ5MzI1MzIzNjI1NzU3MzQ5MzI1MzIzNjI1NzU3MzQ5MzI1MzIzNjI1NzU3MzQ5MzI1MzIzNjI1NzU3MzQ5MzI1MzIzNjI1NzU3MzQ5MzI1MzIz/hrRJ41JB2zlgZiYcCw/giphy.gif" alt="Coding Success" style="height: 200px; border-radius: 8px;">
+                </div>
+            </section>
+
+            <section data-transition="slide">
+                <h2>Skills</h2>
+                <div class="skill-cloud" style="width: 100%; height: 400px; position: relative; font-size: .9em; ">
+                    <script>
+                        const skills = [
+                            { text: "Data Analysis", color: "#3498db" },
+                            { text: "Coding", color: "#e74c3c" },
+                            { text: "Algorithms", color: "#1abc9c" },
+                            { text: "Critical Thinking", color: "#27ae60" },
+                            { text: "Decision-making", color: "#8e44ad" },
+                            { text: "Research", color: "#c0392b" },
+                            { text: "Statistics", color: "#f39c12" },
+                            { text: "Machine Learning", color: "#16a085" },
+                            { text: "Problem Solving", color: "#d35400" },
+                            { text: "Python", color: "#2980b9" },
+                            { text: "Robotics", color: "#c0392b" },
+                            { text: "Teamwork", color: "#27ae60" },
+                            { text: "Communication", color: "#8e44ad" },
+                            { text: "Project Management", color: "#f39c12" },
+                            { text: "Engineering", color: "#16a085" },
+                            { text: "Software Development", color: "#e74c3c" },
+                            { text: "Data Visualization", color: "#3498db" },
+                            { text: "Adaptability", color: "#2c3e50" }
+                        ];
+            
+                        const skillCloud = document.querySelector('.skill-cloud');
+                        const usedBoxes = [];
+            
+                        // Get font size based on text length
+                        function getFontSize(textLength) {
+                            if (textLength <= 7) {
+                                return Math.random() * 0.5 + 1.3; // 1.3-1.8em for short words
+                            } else if (textLength <= 12) {
+                                return Math.random() * 0.4 + 1.1; // 1.1-1.5em for medium words
+                            } else {
+                                return Math.random() * 0.4 + 0.9; // 0.9-1.3em for long words
+                            }
+                        }
+            
+                        function getBoundingBox(span) {
+                            const rect = span.getBoundingClientRect();
+                            const cloudRect = skillCloud.getBoundingClientRect();
+                            const fontSize = parseFloat(window.getComputedStyle(span).fontSize);
+                            const padding = fontSize * 0.3; // Increased padding for better spacing
+                            return {
+                                top: ((rect.top - cloudRect.top) / cloudRect.height) * 100 - padding,
+                                left: ((rect.left - cloudRect.left) / cloudRect.width) * 100 - padding,
+                                width: (rect.width / cloudRect.width) * 100 + 2 * padding,
+                                height: (rect.height / cloudRect.height) * 100 + 2 * padding
+                            };
+                        }
+            
+                        function calculateOverlapArea(box1, box2) {
+                            const xOverlap = Math.max(0, Math.min(box1.left + box1.width, box2.left + box2.width) - Math.max(box1.left, box2.left));
+                            const yOverlap = Math.max(0, Math.min(box1.top + box1.height, box2.top + box2.height) - Math.max(box1.top, box2.top));
+                            return xOverlap * yOverlap;
+                        }
+            
+                        function isValidPosition(newBox, usedBoxes) {
+                            // Add safety margin to prevent overflow
+                            const margin = 2;
+                            if (newBox.left < margin || newBox.left + newBox.width > 100 - margin ||
+                                newBox.top < margin || newBox.top + newBox.height > 100 - margin) {
+                                return false;
+                            }
+                            // Check for overlap with reduced tolerance
+                            for (const box of usedBoxes) {
+                                if (calculateOverlapArea(newBox, box) > 0.05 * Math.min(newBox.width * newBox.height, box.width * box.height)) {
+                                    return false;
+                                }
+                            }
+                            return true;
+                        }
+            
+                        // Gaussian random function for better distribution
+                        function gaussianRandom() {
+                            const u = Math.random(), v = Math.random();
+                            return Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+                        }
+            
+                        // Grid-based placement as fallback
+                        function getGridPosition(index, totalItems) {
+                            const columns = Math.ceil(Math.sqrt(totalItems * 1.5));
+                            const rows = Math.ceil(totalItems / columns);
+                            
+                            const col = index % columns;
+                            const row = Math.floor(index / columns);
+                            
+                            const leftPercent = 10 + (col / (columns - 1)) * 80;
+                            const topPercent = 10 + (row / (rows - 1)) * 80;
+                            
+                            return { top: topPercent, left: leftPercent };
+                        }
+            
+                        // Sort skills by length to prioritize placement of longer words
+                        const sortedSkills = [...skills].sort((a, b) => b.text.length - a.text.length);
+            
+                        sortedSkills.forEach((skill, index) => {
+                            const span = document.createElement('span');
+                            span.className = 'skill-tag fragment';
+                            span.textContent = skill.text;
+                            span.style.position = 'absolute';
+                            span.style.fontSize = `${getFontSize(skill.text.length)}em`;
+                            span.style.color = skill.color;
+                            
+                            // Reduce rotation for better readability
+                            const rotation = Math.random() * 60 - 30; // -30 to +30 degrees
+                            span.style.transform = `rotate(${rotation}deg)`;
+                            skillCloud.appendChild(span);
+            
+                            let top, left, newBox;
+                            let attempts = 0;
+                            const maxAttempts = 200; // Increased attempts
+            
+                            do {
+                                // Use a wider Gaussian distribution (30% spread instead of 15%)
+                                top = 50 + gaussianRandom() * 30;
+                                left = 50 + gaussianRandom() * 30;
+                                
+                                // Keep within safe boundaries
+                                top = Math.max(5, Math.min(95, top));
+                                left = Math.max(5, Math.min(95, left));
+                                
+                                span.style.top = `${top}%`;
+                                span.style.left = `${left}%`;
+                                newBox = getBoundingBox(span);
+                                attempts++;
+                                
+                                // If too many attempts, use grid-based positioning as fallback
+                                if (attempts >= maxAttempts) {
+                                    const gridPos = getGridPosition(index, sortedSkills.length);
+                                    span.style.top = `${gridPos.top}%`;
+                                    span.style.left = `${gridPos.left}%`;
+                                    newBox = getBoundingBox(span);
+                                    break;
+                                }
+                            } while (!isValidPosition(newBox, usedBoxes));
+            
+                            usedBoxes.push(newBox);
+                        });
+                    </script>
+                </div>
+            </section>
+
+            <!-- Career Exploration -->
+            <section data-transition="fade">
+                <h2>Career Exploration 🧭</h2>
+                
+                <div class="fragment" style="display: flex; align-items: center; margin: 30px 0; background-color: rgba(66, 153, 225, 0.05); border-radius: 10px; padding: 15px;">
+                    <img src="steve.webp" alt="Steve Jobs Quote" style="width: 120px; height: auto; margin-right: 20px;">
+                    <div class="quote" style="margin: 0; flex: 1;">
+                        "You can't connect the dots looking forward; you can only connect them looking backwards."
+                        <div style="font-weight: bold; text-align: right; margin-top: 10px;">- Steve Jobs</div>
+                    </div>
+                </div>
+                
+                <h3 class="fragment" style="margin-top: 20px; color: var(--secondary-color);">What I focused on:</h3>
+                <ul style="list-style-type: none; display: flex; flex-direction: row; gap: 2rem; ">
+                    <li class="fragment" style="margin: 10px 0; ">
+                        <span style="display: inline-block; width: 30px; text-align: center;">🧩</span> 
+                        <strong>Problem-solving</strong>
+                    </li>
+                    <li class="fragment" style="margin: 10px 0;">
+                        <span style="display: inline-block; width: 30px; text-align: center;">👨‍💻</span> 
+                        <strong>Coding</strong>
+                    </li>
+                    <li class="fragment" style="margin: 10px 0;">
+                        <span style="display: inline-block; width: 30px; text-align: center;">📊</span> 
+                        <strong>Data</strong>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Job Application Process -->
+            <section data-transition="slide">
+                <h2>Applying for Jobs in Norway 📝</h2>
+                <div class="stats-container fragment">
+                    <div class="stat-box">
+                        <h3>📊 Applications</h3>
+                        <p style="font-size: 1.8em; font-weight: bold;">50+</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>🤝 Interviews</h3>
+                        <p style="font-size: 1.8em; font-weight: bold;">6</p>
+                    </div>
+                </div>
+                <div class="fragment" style="margin-top: 20px; text-align: center;">
+                    <h3>🎯 Job Offers: <span style="color: var(--primary-color);">4</span></h3>
+                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWN1dm42bjZ6eHJpODZ1d29sa3pvODNjNXZpd2h2OTBzc3ZkZ2FjbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lMVNl6XxTvXgs/giphy.gif" alt="Success Kid" style="height: 180px; border-radius: 8px; margin-top: 15px;">
+                </div>
+            </section>
+
+            <!-- Final Remarks -->
+            <section data-transition="fade">
+                <h2>Final Thoughts 🧠</h2>
+                
+                <div class="fragment" style="margin-top: 20px;">
+                    <div class="quote" style="margin-bottom: 20px;">
+                        "The job search is a marathon, not a sprint."
+                    </div>
+                </div>
+                
+                <div style="display: flex; align-items: center; gap: 20px; margin-top: 30px;">
+                    <div class="fragment" style="flex: 1;">
+                        <div class="stat-box">
+                            <h3>🎯 Key Takeaways</h3>
+                            <ul style="list-style-type: none; padding-left: 0; margin-top: 15px;">
+                                <li class="fragment" style="margin: 10px 0;">
+                                    <span style="display: inline-block; width: 30px; text-align: center;">📅</span> 
+                                    <strong>Apply early and often</strong>
+                                </li>
+                                <li class="fragment" style="margin: 10px 0;">
+                                    <span style="display: inline-block; width: 30px; text-align: center;">🔄</span> 
+                                    <strong>Learn from each interview</strong>
+                                </li>
+                                <li class="fragment" style="margin: 10px 0;">
+                                    <span style="display: inline-block; width: 30px; text-align: center;">🧘</span> 
+                                    <strong>Be patient - persistence pays off</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="fragment" style="flex: 1;">
+                        <img src="https://media.giphy.com/media/5wWf7GMbT1ZUGTDdTqM/giphy.gif" alt="Success" style="width: 100%; max-width: 250px; border-radius: 8px; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q&A -->
+            <section data-transition="zoom">
+                <h1>Thank You!</h1>
+                <p>Questions?</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            transitionSpeed: 'fast',
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html> 
