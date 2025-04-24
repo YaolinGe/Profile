@@ -2,7 +2,7 @@
 layout: post
 title: MVC and Unicode
 description: Model-View-Controller and Unicode
-published: true
+published: false
 ---
 
 # Understanding Model-View-Controller with Flask and Exploring Unicode
@@ -55,7 +55,7 @@ class Counter:
 ```
 
 #### The View (templates/index.html)
-```html
+```html 
 {% extends "layout.html" %}
 
 {% block content %}
