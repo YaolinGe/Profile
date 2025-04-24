@@ -12,3 +12,7 @@ _site
 .jekyll-metadata
 
 *.lock 
+
+_cv
+**/_cv/**
+_cv/*
