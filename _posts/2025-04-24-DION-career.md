@@ -5,4 +5,4 @@ description: My journey of finding a job in Norway
 published: true
 ---
 
-[View Presentation]({{ site.baseurl }}/presentation/index.html)
+[View Presentation]({{site.url}}/assets/presentation/index.html)
